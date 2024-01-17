@@ -1,0 +1,15 @@
+p {
+    color: rgb(33, 77, 189);
+}
+
+h1 {
+    color:rgb(78, 83, 11);
+    font-size: 50px;        
+}
+
+a {
+    color: rgba(47, 19, 206, 0.358);
+    font-size: 30px;
+    font-style: italic;
+    width: 50px;
+}
