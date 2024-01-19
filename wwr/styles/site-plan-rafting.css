@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #213A30;
+    --secondary-color: #1D5A8A;
+    --accent1-color: #25C3EA;
+    --accent2-color: #A43B1F;
+
+    --heading-font: 'Montaga', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-backgroung-color: #213A30;
+    --nav-link-color: #1D5A8A;
+    --nav-hover-link-color: #25C3EA;
+    --nav-hover-background-color: #A43B1F;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-backgroung-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
